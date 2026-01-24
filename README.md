@@ -1,9 +1,11 @@
 
+<!--
 # crates.io Notice
 
 The Hprobe CLI is distributed as a precompiled binary.
 The crate published on crates.io only serves as a name reservation
 and metadata placeholder.
+-->
 
 # Hprobe 🚀
 
