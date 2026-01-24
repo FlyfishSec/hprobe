@@ -10,3 +10,7 @@ repository = "https://github.com/FlyfishSec/hprobe"
 [[bin]]
 name = "hprobe"
 path = "src/main.rs"
+
+
+[dependencies]
+rswappalyzer = "0.2"
