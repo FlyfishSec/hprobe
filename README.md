@@ -27,11 +27,11 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
 / __  /| |_) | | | (_) | |_) |  __/
 \/ /_/ | .__/|_|  \___/|_.__/ \___|
        |_|
-                          hprobe v0.1.1
+                          hprobe v0.2.0
 [16:09:35] [i] Wappalyzer technology detection enabled
 [16:09:35] [i] Fingerprint detection enabled
 [16:09:35] [i] ASN lookup enabled (range count: 460971)
-[16:09:36] [i] Probe completed | Total targets: 254 | Valid results: 0 | Time elapsed: 0.837 seconds
+[16:09:36] [i] Probe completed | Total targets: 1 | Valid results: 1 | Time elapsed: 0.837 seconds
 [
   {
     "host": "v9.service-access.cn",
