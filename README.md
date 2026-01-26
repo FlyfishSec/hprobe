@@ -53,7 +53,6 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
       "Bootstrap",
       "PHP",
       "企业版QQ",
-      "国家数字化学习资源中心系统",
       "登陆页面"
     ],
     "redirect_url": "https://auth.service-access.cn/login",
