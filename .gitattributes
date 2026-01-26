@@ -1,0 +1,5 @@
+asndata.bin          export-ignore
+fp_data/**           export-ignore
+target/              export-ignore
+hprobe.exe           export-ignore
+hprobe               export-ignore
