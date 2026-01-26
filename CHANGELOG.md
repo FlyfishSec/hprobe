@@ -7,6 +7,7 @@
 ### Changed
 
 - 新增--scheme-policy，适配多个场景
+- 新增--user-agent，可自定义UA，默认内置随机UA
 - tls探测核心重构，支持全版本协议
 - 检测逻辑优化
 
