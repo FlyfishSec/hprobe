@@ -2,6 +2,22 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-01-26
+
+### Changed
+
+- 新增--scheme-policy，适配多个场景
+- tls探测核心重构，支持全版本协议
+- 检测逻辑优化
+
+### Removed
+
+- 移除dns解析重试逻辑
+- 移除--use-scheme参数，使用--scheme-policy替代
+
+---
+
+
 ## [0.1.1] - 2026-01-25
 
 ### Added
