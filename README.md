@@ -17,6 +17,17 @@ A high-performance HTTP probing tool for asset discovery.
 
 ![Hprobe Screenshot](assets/hprobe.png)
 
+## 核心优势
+
+1. **Tokio 异步运行时，极致高并发**
+   - 基于 Tokio 异步运行时构建，充分利用多核性能，支撑大规模高并发探测
+
+2. **纳秒级 ASN 查询**  
+   - 自定义二进制结构体，采用零拷贝设计 + mmap 内存映射 + 二分查找，实现纳秒级 ASN 信息查询
+
+3. **极速 Web 指纹识别**  
+   - 集成 17000 + 指纹规则，进程内单例懒加载，10MB HTML 毫秒级指纹识别
+
 ## Quick Start⚡| 快速开始
 
 ```bash
