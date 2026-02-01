@@ -12,8 +12,18 @@
   --post-file/--pf，支持从文件读取自定义post-data数据
   --content-type/--ct，支持指定content-type类型
 - 优化数据文件读取，支持通过环境变量"HPROBE_DATA_ROOT"设置数据文件目录
-- 支持管道传递目标: cat targets.txt | hprobe
-- 支持被动检测: curl -s -i -k -L https://example.com | hprobe --mode passive --td --fp
+- 支持管道传递目标:
+
+  ```bash
+  cat targets.txt | hprobe
+  ```
+
+- 支持被动检测:
+
+  ```bash
+  curl -s -i -k -L https://example.com | hprobe --mode passive --td --fp
+  ```
+
 - 结果中新增以下字段:
   1、method(请求方法)
   2、target(存储原始目标)
