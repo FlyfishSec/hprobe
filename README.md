@@ -35,9 +35,8 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
 [
   {
     "target": "v9.service-access.cn",
-    "resolved_ips": [198.51.100.88],
+    "resolved_ips": [198.51.100.88, 198.51.100.89],
     "tls_probe_ip": 198.51.100.88,
-    "origin_ips": [198.51.100.88]
     "host": "v9.service-access.cn",
     "scheme": "https",
     "url": "https://198.51.100.88:443",
@@ -87,6 +86,11 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
     "content_length": 46560,
     "tls_domain": "portal.service-access.cn",
     "icp_beian": "粤ICP备16xxxxxx号",
+    "pubsec_beian": "粤公网安备13xxxxxx号",
+    "identifier_code": "13xxxxxx",
+    "contact_phone": 13599811120,
+    "site_owner": "xx市人民政府办公室",
+    "meta_domain": "portal.service-access.cn",
     "html_urls": [
       "beian.miit.gov.cn",
       "dlsw.baidu.com",
