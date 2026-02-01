@@ -2,6 +2,25 @@
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-02-01
+
+### Added
+
+- 新增以下功能:
+  --probe-methods/--pm，支持自定义请求方法
+  --post-data/--pd，支持自定义post-data数据
+  --post-file/--pf，支持从文件读取自定义post-data数据
+  --content-type/--ct，支持指定content-type类型
+- 优化数据文件读取，支持通过环境变量"HPROBE_DATA_ROOT"设置数据文件目录
+- 支持管道传递目标: cat targets.txt | hprobe
+- 支持被动检测: curl -s -i -k -L https://example.com | hprobe --mode passive --td --fp
+- 结果中新增以下字段:
+  1、method(请求方法)
+  2、target(存储原始目标)
+  3、resolved_ips(DNS解析结果)
+  4、tls_probe_ip(tls探测ip)
+  5、origin_ips(保留扩展后续会考虑接入域名反推真实IP引擎)
+
 ## [0.2.0] - 2026-01-26
 
 ### Changed
