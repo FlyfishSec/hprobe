@@ -27,17 +27,22 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
 / __  /| |_) | | | (_) | |_) |  __/
 \/ /_/ | .__/|_|  \___/|_.__/ \___|
        |_|
-                          hprobe v0.2.0
+                          hprobe v0.2.1
 [16:09:35] [i] Wappalyzer technology detection enabled
 [16:09:35] [i] Fingerprint detection enabled
 [16:09:35] [i] ASN lookup enabled (range count: 460971)
 [16:09:36] [i] Probe completed | Total targets: 1 | Valid results: 1 | Time elapsed: 0.837 seconds
 [
   {
+    "target": "v9.service-access.cn",
+    "resolved_ips": [198.51.100.88],
+    "tls_probe_ip": 198.51.100.88,
+    "origin_ips": [198.51.100.88]
     "host": "v9.service-access.cn",
     "scheme": "https",
     "url": "https://198.51.100.88:443",
     "port": 443,
+    "method": GET,
     "status_code": 200,
     "title": "登录 - OCQ",
     "technologies": [
