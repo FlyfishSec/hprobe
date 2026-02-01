@@ -31,6 +31,10 @@
   4、tls_probe_ip(tls探测ip)
   5、origin_ips(保留扩展后续会考虑接入域名反推真实IP引擎)
 
+### Fixed
+
+- 修复site_owner提取panic问题
+
 ## [0.2.0] - 2026-01-26
 
 ### Changed
