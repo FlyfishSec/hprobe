@@ -17,7 +17,7 @@ A high-performance HTTP probing tool for asset discovery.
 
 ![Hprobe Screenshot](assets/hprobe.png)
 
-## 核心优势
+## Core Advantages 📌| 核心优势
 
 1. **Tokio 异步运行时，极致高并发**
    - 基于 Tokio 异步运行时构建，充分利用多核性能，支撑大规模高并发探测
