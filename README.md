@@ -33,14 +33,14 @@ A high-performance HTTP probing tool for asset discovery.
 ## Quick Start⚡| 快速开始
 
 ```bash
-C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
+C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --tls --asn --td --fp
                         _
   /\  /\_ __  _ __ ___ | |__   ___
  / /_/ / '_ \| '__/ _ \| '_ \ / _ \
 / __  /| |_) | | | (_) | |_) |  __/
 \/ /_/ | .__/|_|  \___/|_.__/ \___|
        |_|
-                          hprobe v0.3.0
+                          hprobe v0.4.0
 [16:09:35] [i] Wappalyzer technology detection enabled
 [16:09:35] [i] Fingerprint detection enabled
 [16:09:35] [i] ASN lookup enabled (range count: 460971)
