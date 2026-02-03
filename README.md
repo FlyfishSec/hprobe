@@ -9,7 +9,7 @@ and metadata placeholder.
 <!-- 
 # Hprobe 🚀 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/hprobe?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://github.com/FlyfishSec/hprobe) -->
 
-# Hprobe 🚀 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/hprobe?units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://github.com/FlyfishSec/hprobe)
+# Hprobe 🚀 [![Downloads](https://static.pepy.tech/personalized-badge/hprobe?units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://github.com/FlyfishSec/hprobe) [![Issues](https://img.shields.io/github/downloads/flyfishSec/hprobe/total?label=issue&color=8A2BE2)](None)
 
 A high-performance HTTP probing tool for asset discovery.
 
