@@ -7,7 +7,7 @@ The crate published on crates.io only serves as a name reservation
 and metadata placeholder.
 -->
 
-# Hprobe 🚀
+# Hprobe 🚀 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/hprobe?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://github.com/FlyfishSec/hprobe)
 
 A high-performance HTTP probing tool for asset discovery.
 
