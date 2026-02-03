@@ -38,7 +38,7 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
 / __  /| |_) | | | (_) | |_) |  __/
 \/ /_/ | .__/|_|  \___/|_.__/ \___|
        |_|
-                          hprobe v0.2.1
+                          hprobe v0.3.0
 [16:09:35] [i] Wappalyzer technology detection enabled
 [16:09:35] [i] Fingerprint detection enabled
 [16:09:35] [i] ASN lookup enabled (range count: 460971)
@@ -91,7 +91,20 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --asn --td --fp
         "portal.service-access.cn"
       ]
     },
-    "raw_header": "server: nginx/1.9.9\ndate: Sat, 24 Jan 2026 04:54:55 GMT\ncontent-type: text/html;charset=utf-8\ntransfer-encoding: chunked\nconnection: keep-alive\nvary: Accept-Encoding\nx-bucket-by: ********\nset-cookie: JSESSIONID=********; Path=/; HttpOnly\naccess-control-allow-origin: *\naccess-control-allow-methods: PUT, GET, POST, OPTIONS, DELETE\naccess-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization\naccess-control-allow-credentials: true\n",
+    "header": {
+      "server": "nginx/1.9.9",
+      "date": "Sat, 24 Jan 2026 04:54:55 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "transfer-encoding": "chunked",
+      "connection": "keep-alive",
+      "vary": "Accept-Encoding",
+      "x-bucket-by": "********",
+      "set-cookie": "JSESSIONID=********; Path=/; HttpOnly",
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "PUT, GET, POST, OPTIONS, DELETE",
+      "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+      "access-control-allow-credentials": "true"
+    },
     "web_server": "nginx/1.9.9",
     "content_type": "text/html;charset=utf-8",
     "content_length": 46560,
