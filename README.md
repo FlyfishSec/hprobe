@@ -13,7 +13,7 @@ and metadata placeholder.
 
 A high-performance HTTP probing tool for asset discovery.
 
-`hprobe` 是一个基于 Rust 实现的 高性能 HTTP 探测引擎，在大规模目标场景下能够高效完成 HTTP 服务探测、TLS 信息解析以及应用指纹与技术栈识别，适用于资产发现、网络空间测绘与自动化安全评估。
+`hprobe` 是一个基于 Rust实现的 高性能 HTTP 探测引擎，在大规模目标场景下能够高效完成 HTTP 服务探测、TLS 信息解析以及应用指纹与技术栈识别，适用于资产发现、网络空间测绘与自动化安全评估。
 
 ---
 
