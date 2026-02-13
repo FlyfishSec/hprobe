@@ -2,6 +2,45 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-02-13
+
+### Added
+
+- 核心重构，支持部分非http协议，如http/0.9、ssh等tcp协议
+- 支持任意多重/无限重定向等畸形目标检测
+- 新增支持非http协议字段: raw_response、protocol、protocol_version
+- 支持带path的url目标: 如 `"http://192.168.1.1/admin"`
+- 新增参数: `--path`、`--path-file`，支持自定义path请求路径
+- 新增参数: `-F/--output-format`，支持输出格式流式: 流式JSONL、JSON、TSV、CSV
+- 新增参数: `--select/--fields`，支持输出指定字段，方便管道流式适配其他工具执行后续操作
+
+### Changed
+
+- **BREAKING**: 原字段 `"redirect_url"` 已修改为 `"final_url"`。
+- 重构输出系统，原有默认输出结果从数组改为JSONL，支持大任务流式输出，如需原有json数组可使用参数 ```-F json/--output-format json```
+- 字段严格语义对齐，如scheme、host等
+- 内部处理逻辑全阶段严格超时控制
+- 性能优化
+- 帮助信息美化: 动态渐变色系 + 关键信息聚焦，参数配置一目了然
+
+---
+
+## [0.4.2] - 2026-02-06
+
+### Fixed
+
+- 修复日志输出
+
+### Added
+
+- 新增单文件版本(内嵌资源文件)
+
+### Changed
+
+- 支持加载预编译规则库fp_rule.bin，免索引构建逻辑，启动更快，原fp_rule.json仍兼容支持
+
+---
+
 ## [0.4.1] - 2026-02-05
 
 ### Fixed
