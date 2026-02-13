@@ -28,10 +28,10 @@ A high-performance HTTP probing tool for asset discovery.
 
 ```bash
 C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --tls --asn --td --fp -F json
-[16:09:35] [i] Wappalyzer technology detection enabled
-[16:09:35] [i] Fingerprint detection enabled
-[16:09:35] [i] ASN lookup enabled (range count: 460971)
-[16:09:36] [i] Probe completed | Total targets: 1 | Valid results: 1 | Time elapsed: 0.837 seconds
+[16:09:35] [INFO] Wappalyzer technology detection enabled
+[16:09:35] [INFO] Fingerprint detection enabled
+[16:09:35] [INFO] ASN lookup enabled (range count: 460971)
+[16:09:36] [INFO] Probe completed | Total targets: 1 | Valid results: 1 | Time elapsed: 0.837 seconds
 [
   {
     "target": "v9.service-access.cn",
