@@ -141,7 +141,7 @@ C:\KVM\hprobe\>hprobe -t example.com --si --select url|nuclei
 ### Example 5 — Passive Mode (Pipe from curl)
 
 ```bash
-C:\KVM\hprobe\>curl -s -i -k -L https://httpbin.org | hprobe --mode passive -v -F json
+C:\KVM\hprobe\>curl -s -i -k -L https://httpbin.org | hprobe --mode passive -F json
 [
   {
     "target": "hprobe_passive.local",
