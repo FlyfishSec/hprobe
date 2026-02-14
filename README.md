@@ -47,7 +47,7 @@ C:\KVM\hprobe\hprobe.exe -t v9.service-access.cn --tls --asn --td --fp -F json
     "technologies": ["Alibaba Cloud CDN", "Backstretch", "Bootstrap:20180116", "Java",
       "Nginx:1.9.9", "Vue.js:2.6.12", "jQuery:1.10.2"],
     "fingerprints": ["Bootstrap", "PHP", "企业版QQ", "登陆页面"],
-    "redirect_url": "https://auth.service-access.cn/login",
+    "final_url": "https://auth.service-access.cn/login",
     "response_time_ms": 1632,
     "asn_info": {
       "as_number": 64532,
