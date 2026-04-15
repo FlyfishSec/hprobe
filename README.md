@@ -1,7 +1,7 @@
 <!-- 
 # Hprobe 🚀 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/hprobe?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://github.com/FlyfishSec/hprobe) -->
 
-# Hprobe 🚀 ![](https://komarev.com/ghpvc/?username=FlyfishSec&base=3000&abbreviated=true&color=brightgreen) [![Downloads](https://static.pepy.tech/personalized-badge/hprobe?units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://github.com/FlyfishSec/hprobe) [![Issues](https://img.shields.io/github/downloads/flyfishSec/hprobe/total?label=issues&color=8A2BE2)](../../)
+# Hprobe 🚀 ![](https://komarev.com/ghpvc/?username=FlyfishSec&base=4000&abbreviated=true&color=brightgreen) [![Downloads](https://static.pepy.tech/personalized-badge/hprobe?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://github.com/FlyfishSec/hprobe) [![Issues](https://img.shields.io/github/downloads/flyfishSec/hprobe/total?label=issues&color=8A2BE2)](../../)
 
 A high-performance HTTP probing tool for asset discovery.
 
